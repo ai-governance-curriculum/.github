@@ -27,6 +27,10 @@ Two specializations are planned for this org as it grows:
 - **AI Evaluation Engineer** — eval harness design, LLM-as-judge calibration, benchmark curation, regression gating.
 - **Agentic Safety / Red-Team Engineer** — adversarial testing of agents, prompt-injection defense, excessive-agency containment, safety guardrails.
 
+## 📈 Career Progression
+
+See the **[Career Progression Guide](https://github.com/ai-governance-curriculum/.github/blob/main/CAREER_PROGRESSION.md)** for the full ladder — level descriptions, skills matrix, compensation ranges, promotion criteria, and specialist tracks.
+
 ## 🔗 Curriculum Family
 
 This is one of four sibling orgs covering the full landscape of AI work — organized by what you *do* relative to a model:
