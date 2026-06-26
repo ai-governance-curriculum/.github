@@ -1,48 +1,38 @@
 # AI Governance Curriculum
 
-> A hands-on curriculum for **governing, securing, and assuring AI** — AI/ML security, risk & compliance, responsible AI, evaluation, and agentic safety — from individual-contributor depth to executive accountability.
+> A hands-on, role-based curriculum for the **AI Governance** career ladder.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ai-governance-curriculum/discussions)
 
 ## ⚠️ AI-Generated Content Disclaimer
 
-> The content in these repositories is generated with AI assistance and undergoes ongoing human review. It may contain errors or outdated information. Treat it as a learning resource: cross-reference official docs and authoritative regulations, and report issues via GitHub Issues or Discussions.
-
-## 🎯 Overview
-
-This org is the **AI governance** vertical of a three-part curriculum family: it teaches how to keep AI systems secure, compliant, accountable, and safe — spanning AI/ML security, governance frameworks (ISO/IEC 42001, NIST AI RMF, EU AI Act), responsible AI, and agentic safety. Each role has a paired **learning** and **solutions** repository.
+> The content in these repositories is generated with AI assistance and undergoes ongoing human review. It may contain errors or outdated information. Treat it as a learning resource: cross-reference official docs, test code in a safe environment, and report issues via GitHub Issues or Discussions.
 
 ## 📚 Role Ladder
 
-| Role | Level | Focus | Repositories |
-|------|-------|-------|--------------|
-| **Security Engineer** | IC | ML security foundations, zero-trust, cryptography, adversarial ML, compliance, runtime & supply-chain security | [📘 Learning](https://github.com/ai-governance-curriculum/security-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/security-solutions) |
-| **Chief AI Officer** | Executive | AI governance, risk & compliance, strategy & transformation, responsible AI, board-level communication | [📘 Learning](https://github.com/ai-governance-curriculum/chief-ai-officer-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/chief-ai-officer-solutions) |
-
-### 🛣️ On the roadmap
-
-Two specializations are planned for this org as it grows:
-
-- **AI Evaluation Engineer** — eval harness design, LLM-as-judge calibration, benchmark curation, regression gating.
-- **Agentic Safety / Red-Team Engineer** — adversarial testing of agents, prompt-injection defense, excessive-agency containment, safety guardrails.
+| Role | Level | Repositories |
+|------|-------|--------------|
+| **AI Governance Analyst** | L15 | [📘 Learning](https://github.com/ai-governance-curriculum/ai-governance-analyst-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/ai-governance-analyst-solutions) |
+| **AI Risk Engineer** | L25 | [📘 Learning](https://github.com/ai-governance-curriculum/ai-risk-engineer-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/ai-risk-engineer-solutions) |
+| **AI Evaluation Engineer** | L35 | [📘 Learning](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-solutions) |
+| **AI/ML Security & Governance Engineer** | L35 | [📘 Learning](https://github.com/ai-governance-curriculum/security-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/security-solutions) |
+| **Agentic Safety & Red-Team Engineer** | L40 | [📘 Learning](https://github.com/ai-governance-curriculum/agentic-safety-engineer-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/agentic-safety-engineer-solutions) |
+| **Senior AI Governance / Risk Architect** | L50 | [📘 Learning](https://github.com/ai-governance-curriculum/senior-ai-governance-architect-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/senior-ai-governance-architect-solutions) |
+| **Head of AI Governance** | L60 | [📘 Learning](https://github.com/ai-governance-curriculum/head-of-ai-governance-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/head-of-ai-governance-solutions) |
+| **Chief AI Officer** | L70 | [📘 Learning](https://github.com/ai-governance-curriculum/chief-ai-officer-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/chief-ai-officer-solutions) |
 
 ## 📈 Career Progression
 
-See the **[Career Progression Guide](https://github.com/ai-governance-curriculum/.github/blob/main/CAREER_PROGRESSION.md)** for the full ladder — level descriptions, skills matrix, compensation ranges, promotion criteria, and specialist tracks.
+See the **[Career Progression Guide](./CAREER_PROGRESSION.md)** for the full ladder — level descriptions, skills matrix, compensation ranges, promotion criteria, and specialist tracks.
 
 ## 🔗 Curriculum Family
 
-This is one of four sibling orgs covering the full landscape of AI work — organized by what you *do* relative to a model:
+One of four sibling orgs in the **AI Career Curriculum ecosystem**, organized by what you *do* relative to a model:
 
 - **[AI Infrastructure Curriculum](https://github.com/ai-infra-curriculum)** — *run* the platforms (Kubernetes, GPUs, training infra, serving, MLOps, IaC, SRE).
 - **[ML Engineering Curriculum](https://github.com/ml-engineering-curriculum)** — *build & train* the models (data, fine-tuning, pretraining, RLHF, evals).
 - **[AI Engineering Curriculum](https://github.com/ai-engineering-curriculum)** — *build with* the models (agentic apps, RAG, multi-agent systems).
 - **AI Governance Curriculum** *(you are here)* — *govern & assure* AI (security, compliance, evaluation, safety).
-
-## 🤝 Contributing
-
-Contributions welcome — fix broken links or stale references, add depth, improve exercise validation, or open a [Discussion](https://github.com/orgs/ai-governance-curriculum/discussions).
 
 ---
 
