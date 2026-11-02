@@ -4,49 +4,46 @@ A career-ladder guide for the discipline of **governing, securing, and assuring 
 
 ## Career Ladder Overview
 
-All eight rungs of the governance ladder have authored learning content. Reference solutions are complete for two tracks and in progress for the rest.
+All eight rungs of the governance ladder have authored learning content and reference solutions.
 
 ```
               L70   ──►   Chief AI Officer                       [learning + solutions]
                                        ▲
-              L60   ──►   Head of AI Governance                  [learning]
+              L60   ──►   Head of AI Governance                  [learning + solutions]
                                        ▲
-              L50   ──►   Senior AI Governance / Risk Architect  [learning]
+              L50   ──►   Senior AI Governance / Risk Architect  [learning + solutions]
                                        ▲
-              L40   ──►   Agentic Safety & Red-Team Engineer     [learning]
+              L40   ──►   Agentic Safety & Red-Team Engineer     [learning + solutions]
                                        ▲
               L35   ──►   AI/ML Security & Governance Engineer   [learning + solutions]
-                          AI Evaluation Engineer                 [learning]
+                          AI Evaluation Engineer                 [learning + solutions]
                                        ▲
-              L25   ──►   AI Risk Engineer                       [learning]
+              L25   ──►   AI Risk Engineer                       [learning + solutions]
                                        ▲
-              L15   ──►   AI Governance Analyst                  [learning]
+              L15   ──►   AI Governance Analyst                  [learning + solutions]
 
    Security specialist branch (planned):
      AI/ML Security Engineer → Senior AI Security Engineer
        → AI Security Architect → Head of AI Security
 ```
 
-Legend: **[learning + solutions]** = authored curriculum and complete reference solutions. **[learning]** = authored curriculum; reference solutions in progress. **(planned)** = on the roadmap, no repo yet.
+Legend: **[learning + solutions]** = authored curriculum and reference solutions. **(planned)** = on the roadmap, no repo yet.
 
 ## What Exists Today
 
-This org ships **eight** role tracks, each a paired `-learning` + `-solutions` repo.
-
-- **Complete (learning + solutions):** AI/ML Security & Governance Engineer (L35) and Chief AI Officer (L70). The security track was transferred into this org; historically it was titled "AI Infrastructure Security Engineer", and here it is framed as **AI/ML Security & Governance Engineer**.
-- **Learning authored, solutions in progress:** AI Governance Analyst (L15), AI Risk Engineer (L25), AI Evaluation Engineer (L35), Agentic Safety & Red-Team Engineer (L40), Senior AI Governance / Risk Architect (L50), and Head of AI Governance (L60). Each has 10–13 authored modules; the paired solutions repos are filled in by the curriculum pipeline over time.
+This org ships **eight** role tracks, each a paired `-learning` + `-solutions` repo, all with authored learning content and reference solutions. The AI/ML Security & Governance Engineer track was transferred into this org; historically it was titled "AI Infrastructure Security Engineer", and here it is framed as **AI/ML Security & Governance Engineer**.
 
 Only the security specialist branch is still **planned**.
 
 ## Level Descriptions
 
-### AI Governance Analyst (L15) — *learning authored*
+### AI Governance Analyst (L15) — *complete*
 
 - **Responsibilities:** Maintain risk registers, model inventories, and intake/triage of new AI use cases. Map systems to applicable frameworks and flag gaps.
 - **Representative work:** Drafting model cards, completing impact assessments, tracking control evidence, supporting audit prep.
 - **Depth:** Working literacy in **NIST AI RMF** and **EU AI Act** risk tiers; able to read a system design and identify where governance obligations attach.
 
-### AI Risk Engineer (L25) — *learning authored*
+### AI Risk Engineer (L25) — *complete*
 
 - **Responsibilities:** Operationalize risk controls — turn policy into testable, monitored requirements. Own portions of the risk register and remediation tracking.
 - **Representative work:** Building control-testing pipelines, defining risk acceptance criteria, instrumenting models for monitoring/drift, writing remediation plans.
@@ -58,25 +55,25 @@ Only the security specialist branch is still **planned**.
 - **Representative work:** Threat modeling ML systems (training, serving, agentic flows); model and supply-chain security (provenance, signing, SBOMs); secrets management; identity and access control; hardening infrastructure that hosts models.
 - **Depth:** STRIDE/attack-tree threat modeling, ML-specific attack surfaces (poisoning, extraction, prompt injection), secrets/KMS, IAM, and mapping technical controls to **ISO/IEC 42001** and **NIST AI RMF** evidence. This is the org's anchor curriculum.
 
-### AI Evaluation Engineer (L35) — *learning authored*
+### AI Evaluation Engineer (L35) — *complete*
 
 - **Responsibilities:** Turn assurance claims into evidence a regulator, auditor, or customer will accept, and gate releases on it.
 - **Representative work:** Building assurance cases, designing release-gate architecture, running evaluation evidence pipelines, writing model and system cards for external audiences, mapping obligations across jurisdictions and regulated sectors.
 - **Depth:** Evaluation as an assurance discipline — evidence quality, deployment-tier gating, and sector-specific assurance expectations.
 
-### Agentic Safety & Red-Team Engineer (L40) — *learning authored*
+### Agentic Safety & Red-Team Engineer (L40) — *complete*
 
 - **Responsibilities:** Adversarially test agentic and autonomous AI systems and contain what they can do.
 - **Representative work:** Agent threat modeling, prompt-injection and jailbreak engineering, mapping the agent attack surface, dangerous-capability evaluations, containing excessive agency, and frontier guardrails.
 - **Depth:** Frontier safety frameworks and red-team practice applied to tool-using, autonomous agents.
 
-### Senior AI Governance / Risk Architect (L50) — *learning authored*
+### Senior AI Governance / Risk Architect (L50) — *complete*
 
 - **Responsibilities:** Design the governance and assurance architecture for an organization's AI estate. Set standards that scale across teams.
 - **Representative work:** Authoring control frameworks, designing **AI management systems (ISO/IEC 42001)**, defining audit and evaluation gates, advising on EU AI Act conformity.
 - **Depth:** Architect-level fluency across NIST AI RMF, ISO/IEC 42001, and EU AI Act; able to reconcile competing frameworks into one operating model.
 
-### Head of AI Governance (L60) — *learning authored*
+### Head of AI Governance (L60) — *complete*
 
 - **Responsibilities:** Own the governance function. Accountable for policy, audit posture, regulatory readiness, and cross-functional governance operations.
 - **Representative work:** Standing up governance committees, owning the audit relationship, reporting risk posture to leadership, setting org-wide AI policy.
@@ -129,7 +126,7 @@ Note: AI security and governance entry roles realistically start around **$140�
 2. **Pick an assurance specialty at L35–L40.** **AI Evaluation Engineer** for release assurance and evidence; **Agentic Safety & Red-Team Engineer** for adversarial testing of agents.
 3. **Move into architecture and leadership.** **Senior AI Governance / Risk Architect** → **Head of AI Governance** → **Chief AI Officer**.
 
-In each track, attempt the exercises in the `-learning` repo before consulting the paired `-solutions` repo. Where solutions are still in progress, check your work against the primary frameworks: NIST AI RMF, ISO/IEC 42001, and the EU AI Act.
+In each track, attempt the exercises in the `-learning` repo before consulting the paired `-solutions` repo. Supplement with the primary frameworks themselves: NIST AI RMF, ISO/IEC 42001, and the EU AI Act.
 
 ## Specialist Tracks
 
@@ -139,18 +136,18 @@ In each track, attempt the exercises in the `-learning` repo before consulting t
 
 ## Repository Map
 
-All repos live under `https://github.com/ai-governance-curriculum/`.
+All repositories live under the [`ai-governance-curriculum`](https://github.com/ai-governance-curriculum) GitHub organization. Every role has a paired `-learning` repo (modules, lecture chapters, exercises) and a `-solutions` repo (reference walkthroughs).
 
-| Level | Role | Learning | Solutions | Status |
-|---|---|---|---|---|
-| L15 | AI Governance Analyst | [ai-governance-analyst-learning](https://github.com/ai-governance-curriculum/ai-governance-analyst-learning) | [ai-governance-analyst-solutions](https://github.com/ai-governance-curriculum/ai-governance-analyst-solutions) | Learning authored · solutions in progress |
-| L25 | AI Risk Engineer | [ai-risk-engineer-learning](https://github.com/ai-governance-curriculum/ai-risk-engineer-learning) | [ai-risk-engineer-solutions](https://github.com/ai-governance-curriculum/ai-risk-engineer-solutions) | Learning authored · solutions in progress |
-| L35 | AI Evaluation Engineer | [ai-evaluation-engineer-learning](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-learning) | [ai-evaluation-engineer-solutions](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-solutions) | Learning authored · solutions in progress |
-| L35 | AI/ML Security & Governance Engineer | [security-learning](https://github.com/ai-governance-curriculum/security-learning) | [security-solutions](https://github.com/ai-governance-curriculum/security-solutions) | Complete |
-| L40 | Agentic Safety & Red-Team Engineer | [agentic-safety-engineer-learning](https://github.com/ai-governance-curriculum/agentic-safety-engineer-learning) | [agentic-safety-engineer-solutions](https://github.com/ai-governance-curriculum/agentic-safety-engineer-solutions) | Learning authored · solutions in progress |
-| L50 | Senior AI Governance / Risk Architect | [senior-ai-governance-architect-learning](https://github.com/ai-governance-curriculum/senior-ai-governance-architect-learning) | [senior-ai-governance-architect-solutions](https://github.com/ai-governance-curriculum/senior-ai-governance-architect-solutions) | Learning authored · solutions in progress |
-| L60 | Head of AI Governance | [head-of-ai-governance-learning](https://github.com/ai-governance-curriculum/head-of-ai-governance-learning) | [head-of-ai-governance-solutions](https://github.com/ai-governance-curriculum/head-of-ai-governance-solutions) | Learning authored · solutions in progress |
-| L70 | Chief AI Officer | [chief-ai-officer-learning](https://github.com/ai-governance-curriculum/chief-ai-officer-learning) | [chief-ai-officer-solutions](https://github.com/ai-governance-curriculum/chief-ai-officer-solutions) | Complete |
+| Level | Role | Modules | Learning | Solutions | Status |
+|---|---|---|---|---|---|
+| L15 | AI Governance Analyst | 10 | [ai-governance-analyst-learning](https://github.com/ai-governance-curriculum/ai-governance-analyst-learning) | [ai-governance-analyst-solutions](https://github.com/ai-governance-curriculum/ai-governance-analyst-solutions) | Complete |
+| L25 | AI Risk Engineer | 12 | [ai-risk-engineer-learning](https://github.com/ai-governance-curriculum/ai-risk-engineer-learning) | [ai-risk-engineer-solutions](https://github.com/ai-governance-curriculum/ai-risk-engineer-solutions) | Complete |
+| L35 | AI Evaluation Engineer | 12 | [ai-evaluation-engineer-learning](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-learning) | [ai-evaluation-engineer-solutions](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-solutions) | Complete |
+| L35 | AI/ML Security & Governance Engineer | 24 | [security-learning](https://github.com/ai-governance-curriculum/security-learning) | [security-solutions](https://github.com/ai-governance-curriculum/security-solutions) | Complete |
+| L40 | Agentic Safety & Red-Team Engineer | 12 | [agentic-safety-engineer-learning](https://github.com/ai-governance-curriculum/agentic-safety-engineer-learning) | [agentic-safety-engineer-solutions](https://github.com/ai-governance-curriculum/agentic-safety-engineer-solutions) | Complete |
+| L50 | Senior AI Governance / Risk Architect | 13 | [senior-ai-governance-architect-learning](https://github.com/ai-governance-curriculum/senior-ai-governance-architect-learning) | [senior-ai-governance-architect-solutions](https://github.com/ai-governance-curriculum/senior-ai-governance-architect-solutions) | Complete |
+| L60 | Head of AI Governance | 13 | [head-of-ai-governance-learning](https://github.com/ai-governance-curriculum/head-of-ai-governance-learning) | [head-of-ai-governance-solutions](https://github.com/ai-governance-curriculum/head-of-ai-governance-solutions) | Complete |
+| L70 | Chief AI Officer | 12 | [chief-ai-officer-learning](https://github.com/ai-governance-curriculum/chief-ai-officer-learning) | [chief-ai-officer-solutions](https://github.com/ai-governance-curriculum/chief-ai-officer-solutions) | Complete |
 
 ## The AI Career Curriculum Ecosystem
 
