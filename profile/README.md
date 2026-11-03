@@ -12,6 +12,8 @@
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ai-governance-curriculum/discussions)
 [![Repositories: 20](https://img.shields.io/badge/repositories-20-blue.svg)](https://github.com/orgs/ai-governance-curriculum/repositories)
 
+🌐 **Website:** [ai-governance-curriculum.github.io](https://ai-governance-curriculum.github.io/) · part of the [AI Career Curriculum](https://ai-curriculum-project.github.io/)
+
 ## 🎯 Overview
 
 This org covers **AI governance** — *governing, securing and assuring* AI: inventories and risk assessments, red-teaming and adversarial ML, release assurance and evaluation evidence, ML security, agentic safety, enterprise control architecture, and executive leadership of an AI governance program. Every role track has a paired **learning** repository and a **solutions** repository with reference walkthroughs.
@@ -24,13 +26,14 @@ This org covers **AI governance** — *governing, securing and assuring* AI: inv
 
 ## 🔗 Curriculum Family
 
-One of 5 sibling orgs in the **AI Career Curriculum ecosystem**, organized by what you *do* relative to a model:
+One of 6 sibling orgs in the **AI Career Curriculum ecosystem**, organized by what you *do* relative to a model:
 
-- **[AI Infrastructure Curriculum](https://github.com/ai-infra-curriculum)** — *run* the platforms (Kubernetes, GPUs, training infra, serving, MLOps, IaC, SRE).
-- **[ML Engineering Curriculum](https://github.com/ml-engineering-curriculum)** — *build & train* the models (data, fine-tuning, pretraining, RLHF, evals).
-- **[AI Engineering Curriculum](https://github.com/ai-engineering-curriculum)** — *build with* the models (agentic apps, RAG, multi-agent systems).
+- **[AI Infrastructure Curriculum](https://github.com/ai-infra-curriculum)** — *run* the platforms (Kubernetes, GPUs, training infra, serving, MLOps, IaC, SRE). ([site](https://ai-infra-curriculum.github.io/))
+- **[ML Engineering Curriculum](https://github.com/ml-engineering-curriculum)** — *build & train* the models (data, fine-tuning, pretraining, RLHF, evals). ([site](https://ml-engineering-curriculum.github.io/))
+- **[AI Engineering Curriculum](https://github.com/ai-engineering-curriculum)** — *build with* the models (agentic apps, RAG, multi-agent systems). ([site](https://ai-engineering-curriculum.github.io/))
 - **AI Governance Curriculum** *(you are here)* — *govern & assure* AI (security, compliance, evaluation, safety).
-- **[AI Startup Curriculum](https://github.com/ai-startup-curriculum)** — *turn it into a company* — the startup operating school for technical founders (functional curricula × role pathways × stages).
+- **[AI Startup Curriculum](https://github.com/ai-startup-curriculum)** — *turn it into a company* — the startup operating school for technical founders (functional curricula × role pathways × stages). ([site](https://ai-startup-curriculum.github.io/))
+- **[AI Workforce Curriculum](https://github.com/ai-workforce-curriculum)** — *work alongside* the models (AI-assisted engineering, analysis, product, and team leadership). ([site](https://ai-workforce-curriculum.github.io/))
 
 ---
 
@@ -48,7 +51,7 @@ One of 5 sibling orgs in the **AI Career Curriculum ecosystem**, organized by wh
 | Role | Focus | Repositories |
 |------|-------|--------------|
 | **AI Privacy Engineer** | Data minimization, PII detection & redaction, memorization & extraction risk, consent & DSRs for models, GDPR/state-law reviews | [📘 Learning](https://github.com/ai-governance-curriculum/ai-privacy-engineer-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/ai-privacy-engineer-solutions) |
-| **AI Evaluation Engineer** | Release assurance, assurance cases, release gates, evaluation evidence pipelines, cross-jurisdiction obligations | [📘 Learning](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-solutions) |
+| **AI Assurance Engineer** | Release assurance, assurance cases, release gates, evaluation evidence pipelines, cross-jurisdiction obligations | [📘 Learning](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/ai-evaluation-engineer-solutions) |
 | **AI/ML Security & Governance Engineer** | ML security, zero trust, secrets, adversarial ML, runtime security, policy as code, supply chain, SecOps | [📘 Learning](https://github.com/ai-governance-curriculum/security-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/security-solutions) |
 | **Agentic Safety & Red-Team Engineer** | Agent threat modeling, prompt injection & jailbreaks, dangerous-capability evals, excessive-agency containment | [📘 Learning](https://github.com/ai-governance-curriculum/agentic-safety-engineer-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/agentic-safety-engineer-solutions) |
 | **AI Auditor** | Audit planning vs ISO/IEC 42001, NIST AI RMF & EU AI Act, evidence sampling, control testing, findings, assurance reports | [📘 Learning](https://github.com/ai-governance-curriculum/ai-auditor-learning) · [✅ Solutions](https://github.com/ai-governance-curriculum/ai-auditor-solutions) |
