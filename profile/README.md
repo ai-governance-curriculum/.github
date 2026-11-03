@@ -12,7 +12,7 @@
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/orgs/ai-governance-curriculum/discussions)
 [![Repositories: 20](https://img.shields.io/badge/repositories-20-blue.svg)](https://github.com/orgs/ai-governance-curriculum/repositories)
 
-🌐 **Website:** [ai-governance-curriculum.github.io](https://ai-governance-curriculum.github.io/) · part of the [AI Career Curriculum](https://ai-curriculum-project.github.io/)
+🌐 **Website:** [ai-governance-curriculum.github.io](https://ai-governance-curriculum.github.io/) · part of the [AI Career Curriculum](https://ai-curriculum-project.github.io/) · 📊 [Completeness matrix](https://github.com/ai-governance-curriculum/.github/blob/main/COMPLETENESS_MATRIX.md)
 
 ## 🎯 Overview
 
